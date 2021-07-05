@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void roll(View view){
 
-        int[] images = {R.drawable.bishop,R.drawable.rook,R.drawable.king,R.drawable.queen,R.drawable.pawn,R.drawable.rook};
+        int[] images = {R.drawable.bishop,R.drawable.knight,R.drawable.king,R.drawable.queen,R.drawable.pawn,R.drawable.rook};
 
         Random rand = new Random();
         showDice();
